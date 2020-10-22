@@ -3,18 +3,10 @@
 .part3 {
     float: left;
     width: 33%;
-
 }
-.footer {
-    float: left;
-    width: 50%;
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
 }
-footer div h5 {
-    color: white;
-    font-size: 130%;
-    font-family: sans-serif;
-}
-footer div p {
-    color: gray;
-    font-size: 90%;
-    font-family: sans-serif;
+.footer .
