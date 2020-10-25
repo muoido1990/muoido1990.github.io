@@ -7,7 +7,7 @@
   padding: 0px;
   max-width: 100%;
 }
-.main,
+.main, .expanded, .item-information,
 .feature,
 header,
 .footer {
@@ -55,62 +55,91 @@ header {
 }
 
 /* CSS main */
-.main {
+
+.expanded ul li a {
+  text-decoration: none;
+}
+.expanded ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.expanded {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-.product {
+  margin-left: auto;
+  margin-right: auto;
   background-color: seashell;
 }
-.product-row {
-  text-align: center;
+.item1-detail {
+  background: seashell;
 }
-.product-row-item {
-  border-radius: 20px;
-  display: inline-block;
-  width: 23%;
-  margin: 7px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  text-align: center;
-  border: 1px solid white;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0 ,0 ,0.2);
-  background-color: white;
-}
-.product-name {
-  margin-top: 7px;
-}
-.product-price {
-  margin-top: 7px;
-  margin-bottom: 10px;
-}
-.product-row-image img {
-  vertical-align: middle;
-  border-radius: 20px 20px 0px 0px;
-}
-/* CSS div row */
-
-/* CSS feature */
-
-.feature {
+.item-information {
+  display: flex;
   background-color: seashell;
 }
-.feature-info {
-  display: inline-block;
-  width: 23%;
-  text-align: center;
-  font-family: tahoma;
-  font-weight: 300;
+.information-left {
   padding: 20px;
-  margin: 5px;
+  margin: 20px;
+  background-color: pink;
 }
-.feature-text-detail {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.information-right {
+  margin: 10px
 }
-.quality {
-  max-width: 40%;
+
+.information-right h3 {
+  text-align: center;
 }
+.information-title {
+  line-height: 25px;
+  margin-right: 15px;
+}
+.information-price {
+  margin-right: 20px;
+  text-align: center;
+}
+.information-price-detail {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  max-width: 26%;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 25px;
+}
+.line1 {
+  font-weight: normal;
+}
+.line2 {
+  font-weight: bold;
+  color: red;
+}
+.information-sale {
+  border: 1px solid red;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.sale {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 3px;
+  width: 50%;
+  margin: auto;
+}
+.sale-title {
+  margin: 10px;
+  line-height: 20px;
+}
+
+
+
 
 /* CSS footer */
 
