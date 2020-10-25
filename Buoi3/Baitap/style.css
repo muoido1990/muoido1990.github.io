@@ -1,99 +1,98 @@
 /* CSS reset */
 
 * {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    margin: 0px;
-    padding: 0px;
-    max-width: 100%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
 }
-.main, .feature, .header, .footer {
-    width: 960px;
-    margin: auto;
-    background-color: white;
+.main,
+.feature,
+header,
+.footer {
+  width: 960px;
+  margin: auto;
+  background-color: white;
 }
 /* body part */
 
 /* CSS header */
-.header {
-    background-color: blueviolet;
+header {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
 }
 .menu-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .menu-text {
-    list-style: none;
-    text-transform: uppercase;
-    display: inline-block;
-    font-weight: bold;
-    padding: 2px;
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
 }
-.logo-image {
-    width: 2%;
+.logo {
+  width: 100px;
 }
-.menu, .logo {
-    display: inline-block;
-}
+
 /* CSS main */
 .main {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .product-row {
-    text-align: center;
+  text-align: center;
 }
 .product-row-item {
-    display: inline-block;
-    width: 23%;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px 1px; 
+  display: inline-block;
+  width: 23%;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 1px;
 }
 
-
-/* CSS div row */   
-
-
-
+/* CSS div row */
 
 /* CSS feature */
 
 .feature {
-    padding: 20px;
-    margin: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 .feature-info {
-    display: inline-block;
-    width: 23%;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    font-family: tahoma;
-    font-weight: 300;
+  display: inline-block;
+  width: 23%;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-family: tahoma;
+  font-weight: 300;
 }
 .quality {
-    max-width: 40%;
+  max-width: 40%;
 }
 
 /* CSS footer */
 
 .footer {
-    max-width: 100%;
-    background-color: black;
+  max-width: 100%;
+  background-color: black;
 }
 .contact {
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
-    width: 45%
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
 }
 footer div h3 {
-    line-height: 50px;
+  line-height: 50px;
 }
 footer {
-    vertical-align: center;
-    color: white;
-    line-height: 25px;
+  vertical-align: center;
+  color: white;
+  line-height: 25px;
 }
