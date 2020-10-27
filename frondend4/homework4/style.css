@@ -70,7 +70,7 @@ main {
     text-align: left;
 }
 .local-list-place {
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 /* top-center */
@@ -88,7 +88,22 @@ table {
 table, tr, th, td {
     border: 1px solid gray;
 }
+thead tr th {
+    color: red;
 
+}
+tbody tr:nth-child(2n+1) {
+    background-color: seashell;
+}
+caption {
+    margin-top: 5px;
+    font-weight: bold;
+}
+th, td {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
 /* top-right */
 .top-right {
     border: 1px solid gray;
@@ -114,5 +129,6 @@ table, tr, th, td {
     list-style: none;
 }
 .top-right-link-item {
-    padding-left: 30%;
+    padding-left: 25px;
 }
+
