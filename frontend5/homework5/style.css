@@ -84,6 +84,12 @@
   margin-top: 5px;
   display: block;
 }
+.signup:hover, .upload:hover,
+.noti:hover,
+.people:hover,
+.select:hover {
+  color: blue;
+}
 .select {
   color: black;
 }
@@ -107,6 +113,7 @@
   font-weight: 500;
   margin-right: 20px;
 }
+
 .header-menu-link:hover {
   color: #6e55b4;
 }
@@ -148,6 +155,7 @@
 .header-menu-link:hover + .menu-container {
   display: flex;
 }
+
 
 /* ---------main part---------- */
 
